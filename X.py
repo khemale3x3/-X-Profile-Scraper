@@ -75,7 +75,7 @@ def process_x_profiles(input_file, output_file):
     print(f"✅ Scraping completed! Results saved to {output_file}")
 
 # Run the scraper
-input_file = "C:\\Users\\ACER\\Downloads\\x_profiles.xlsx"
-output_file = "C:\\Users\\ACER\\Downloads\\x_results.xlsx"
+input_file = "input\\x_profiles.xlsx"
+output_file = "output\\x_results.xlsx"
 
 process_x_profiles(input_file, output_file)
